@@ -1,3 +1,11 @@
-.text-center{
+form {
+  display: block;
+}
+
+textarea {
+  resize: none;
+}
+
+.text-center {
     text-align: center;
 }
