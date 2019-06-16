@@ -21,7 +21,51 @@
     - The freeCodeCamp Team
 
     -->
-    <h1>Hello World!</h1>
+
+    <h1 class="text-center">Survey Form</h1>
+
+    
+    <h3 class="text-center">Let us know how we can improve freeCodeCamp</h3>
+    
+    <form class="text-center ">
+      <div>
+          <label for="name">*Name</label>
+          <input type="text" name="firstname" placeholder="Enter your name" required>
+      </div>
+      
+      <div>
+          <label for="email">*Email:</label>
+          <input type="email" name="email" placeholder="Enter your Email" required>
+      </div>
+
+      <div>
+          <label for="age">*Age: </label>
+          <input type="number" name="age" placeholder="Age">
+      </div>
+
+      <div>
+        <label for="role">Which option best describes your curren role?</label>
+        <select name="select" >
+          <option value="value1">Student</option>
+          <option value="value2">Full Time Job</option>
+          <option value="value3">Full Time Learner</option>
+          <option value="value4">Prefer not to say</option>
+          <option value="value5">Other</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="recommend">*How likely is that you would recommend freeCodeCamp to a friend?</label>
+        <input type="radio" name="recommend" value="definitely"> Definitely <br>
+        <input type="radio" name="recommend" value="definitely"> Maybe <br>
+        <input type="radio" name="recommend" value="definitely"> Not sure <br>
+      </div>
+
+
+    </form>
+
+
+
 
     <script  src="js/index.js"></script>
   </body>
