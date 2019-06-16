@@ -9,19 +9,69 @@
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <!--
 
-    Hello Camper!
-
-    For now, the test suite only works in Chrome!
-    Please read the README below in the JS Editor before beginning.
-    Feel free to delete this message once you have read it.
-    Good luck and Happy Coding!
-
-    - The freeCodeCamp Team
-
-    -->
     <h1>Hello World, we are software developers!</h1>
+
+    <form action="">
+
+    <div>
+      <label for="dropdown" id="dropdown">What do you like most in FCC: </label>
+      <select id="dropdown">
+        <option value="selectAnOption" selected disabled>Select an Option</option>
+        <option value="challenges">Challenges</option>
+        <option value="projects">Projects</option>
+        <option value="communities">Communities</option>
+        <option value="open Source">Open Source</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="checkbox" id="checkbox">Things that should be improved in the future (Check all that apply): </label>
+
+      <input type="checkbox" class="labelAndInput" id="frontEndProjects" name="frontEndProjects">
+      <label for="frontEndProjects">Front-end Projects</label>
+
+      <input type="checkbox" id="backEndProjects" name="backEndProjects">
+      <label for="backEndProjects">Back-end Projects</label>
+
+      <input type="checkbox" id="dataVisual" name="dataVisual">
+      <label for="dataVisual">Data Visualization</label>
+
+      <input type="checkbox" id="challenges" name="challenges">
+      <label for="dataVisual">Challenges</label>
+
+      <input type="checkbox" id="openSource" name="openSource">
+      <label for="openSource">Open Source Community</label>
+
+      <input type="checkbox" id="glitterHelp" name="glitterHelp">
+      <label for="glitterHelp">Glitter help rooms</label>
+
+      <input type="checkbox" id="videos" name="videos">
+      <label for="videos">Videos</label>
+
+      <input type="checkbox" id="meetups" name="meetups">
+      <label for="meetups">City Meetups</label>
+
+      <input type="checkbox" id="wiki" name="wiki">
+      <label for="wiki">Wiki</label>
+
+      <input type="checkbox" id="forum" name="forum">
+      <label for="forum">Forum</label>
+
+      <input type="checkbox" id="courses" name="courses">
+      <label for="courses">Additional Courses</label>
+    </div>
+
+    <div>
+      <label for="comments" id="comments">Any Comments or Suggestions?</label>
+        <textarea name="comments" id="" cols="30" rows="10"></textarea>
+      </label>
+    </div>
+
+
+    <button name="submit" id="submit" type="button">Submit</button>
+
+    </form>
 
     <script  src="js/index.js"></script>
   </body>
